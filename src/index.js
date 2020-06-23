@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import '@csstools/normalize.css'; /* bring in css reset - normalize.css */
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
