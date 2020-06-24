@@ -11,6 +11,10 @@ import { Link } from 'react-router-dom';
 // import PropTypes from 'prop-types'
 
 const useStyles = makeStyles((theme) => ({
+  root: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+  },
   popover: {
     backgroundColor: theme.palette.background.light,
     left: '0 !important',
@@ -43,7 +47,7 @@ function NavMenu() {
 
   const classes = useStyles();
   return (
-    <div>
+    <div className={classes.root}>
       <IconButton
         aria-controls="nav-menu"
         className={classes.iconBtn}

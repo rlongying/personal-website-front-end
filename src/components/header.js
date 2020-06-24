@@ -26,10 +26,10 @@ function Header() {
   return (
     <AppBar position="relative" className={classes.header}>
       <Toolbar>
-        <Grid item xs={10} md={4}>
+        <Grid item xs={4}>
           <Avatar alt="dev icon" src={DevIcon} />
         </Grid>
-        <Grid item xs={2} md={8}>
+        <Grid item xs={8}>
           {matches ? <Navbar /> : <NavMenu />}
         </Grid>
       </Toolbar>
